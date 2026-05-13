@@ -1,9 +1,9 @@
-Supply Chain Delay Prediction System
+**Supply Chain Delay Prediction System**
 
 Dự án Machine Learning dự đoán nguy cơ giao hàng trễ trong chuỗi cung ứng bằng cách kết hợp phân tích dữ liệu, feature engineering và ensemble learning.
 
-📌 Tổng Quan
-
+📌 **Tổng Quan
+**
 Mục tiêu của dự án là xây dựng hệ thống hỗ trợ phát hiện các đơn hàng có rủi ro giao trễ dựa trên:
 
 Nhà cung cấp
@@ -18,13 +18,14 @@ Tư duy nghiệp vụ thực tế
 Chống data leakage
 Xử lý dữ liệu mất cân bằng
 Temporal validation
+
 Tối ưu hóa cho vận hành kho bãi
 📂 Cấu Trúc Dự Án
 ├── Preprocess.ipynb
 ├── Feature_engineering.ipynb
 └── Modeling.txt
 
-📊 Exploratory Data Analysis (EDA)
+**📊 Exploratory Data Analysis (EDA)**
 
 Trong quá trình EDA, dự án tập trung phân tích:
 
@@ -35,7 +36,7 @@ Interaction giữa supplier, ship mode và lead time
 
 Từ đó đưa ra các quyết định xử lý dữ liệu phù hợp thay vì chỉ áp dụng các kỹ thuật thống kê thông thường.
 
-⚙️ Feature Engineering
+**⚙️ Feature Engineering**
 
 Pipeline feature engineering bao gồm:
 
@@ -51,7 +52,7 @@ Fit trên train → transform trên test
 
 để tránh data leakage.
 
-🤖 Modeling
+**🤖 Modeling**
 
 Dự án sử dụng kiến trúc Ensemble gồm:
 
@@ -67,7 +68,7 @@ Incremental learning experiments
 
 nhằm mô phỏng sát hơn bài toán vận hành thực tế.
 
-🚀 Hướng Phát Triển
+**🚀 Hướng Phát Triển**
 
 Một số hướng mở rộng trong tương lai:
 
@@ -77,6 +78,6 @@ Hyperparameter Tuning
 Real-time Inference API
 Drift Monitoring
 
-👨‍💻 Tác Giả
+**👨‍💻 Tác Giả**
 Khanh Dao
 MSSV: 24520778
