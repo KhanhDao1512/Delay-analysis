@@ -2,8 +2,7 @@
 
 Dự án Machine Learning dự đoán nguy cơ giao hàng trễ trong chuỗi cung ứng bằng cách kết hợp phân tích dữ liệu, feature engineering và ensemble learning.
 
-📌 **Tổng Quan
-**
+**📌Tổng Quan**
 Mục tiêu của dự án là xây dựng hệ thống hỗ trợ phát hiện các đơn hàng có rủi ro giao trễ dựa trên:
 
 Nhà cung cấp
@@ -21,9 +20,9 @@ Temporal validation
 
 Tối ưu hóa cho vận hành kho bãi
 📂 Cấu Trúc Dự Án
-├── Preprocess.ipynb
-├── Feature_engineering.ipynb
-└── Modeling.txt
+01_Preprocess.ipynb
+02_Feature_Engineering.ipynb
+03_Modeling.ipynb
 
 **📊 Exploratory Data Analysis (EDA)**
 
